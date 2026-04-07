@@ -33,7 +33,7 @@ You are generating a **single self-contained HTML file** that visualises the cur
 - **Interactive** — clicking a section heading collapses/expands it. Add a toggle for light/dark mode.
 - **Responsive** — works on any screen width.
 - **Architecture arrows** — use SVG or CSS borders + pseudo-elements to draw connections between components. Keep it clean.
-- **Timestamp** — show generation time (IST) in the footer.
+- **Timestamp** — show generation time in the user's local timezone in the footer.
 
 ### SVG diagram guidelines
 
@@ -54,4 +54,4 @@ For architecture/flow diagrams, draw actual SVG with:
 - Do NOT generate placeholder content — everything must reflect the actual conversation.
 - If the conversation is short or has minimal context, still produce something useful: show the topic, any files mentioned, and suggested next steps.
 - Keep the HTML under 500 lines if possible — be concise in the visual design.
-- All times in IST (UTC+5:30).
+- All times in the user's local timezone.

@@ -22,14 +22,14 @@ The HTML is fully self-contained (no CDNs, no frameworks), interactive (collapsi
 **One-liner:**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/jiveshgupta/claude-visualise/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/jivesh92-ind/claude-visualise/main/install.sh | bash
 ```
 
 **Manual:**
 
 ```bash
 mkdir -p ~/.claude/commands
-curl -fsSL https://raw.githubusercontent.com/jiveshgupta/claude-visualise/main/visualise.md \
+curl -fsSL https://raw.githubusercontent.com/jivesh92-ind/claude-visualise/main/visualise.md \
   -o ~/.claude/commands/visualise.md
 ```
 
